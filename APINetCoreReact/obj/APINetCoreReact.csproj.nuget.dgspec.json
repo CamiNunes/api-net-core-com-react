@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\CAMILA\\source\\repos\\APINetCoreReact\\APINetCoreReact.csproj": {}
+    "R:\\api-net-core-com-react\\APINetCoreReact\\APINetCoreReact.csproj": {}
   },
   "projects": {
-    "C:\\Users\\CAMILA\\source\\repos\\APINetCoreReact\\APINetCoreReact.csproj": {
+    "R:\\api-net-core-com-react\\APINetCoreReact\\APINetCoreReact.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\CAMILA\\source\\repos\\APINetCoreReact\\APINetCoreReact.csproj",
+        "projectUniqueName": "R:\\api-net-core-com-react\\APINetCoreReact\\APINetCoreReact.csproj",
         "projectName": "APINetCoreReact",
-        "projectPath": "C:\\Users\\CAMILA\\source\\repos\\APINetCoreReact\\APINetCoreReact.csproj",
-        "packagesPath": "C:\\Users\\CAMILA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CAMILA\\source\\repos\\APINetCoreReact\\obj\\",
+        "projectPath": "R:\\api-net-core-com-react\\APINetCoreReact\\APINetCoreReact.csproj",
+        "packagesPath": "C:\\Users\\Usuário\\.nuget\\packages\\",
+        "outputPath": "R:\\api-net-core-com-react\\APINetCoreReact\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\CAMILA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Usuário\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -69,7 +69,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
       }
     }
