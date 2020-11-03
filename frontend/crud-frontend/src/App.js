@@ -18,7 +18,7 @@ function App() {
   }
 
   useEffect(()=>{
-    getSelection();
+    gestoresGet();
   },[])
 
   return (
@@ -30,12 +30,44 @@ function App() {
             <th>Nome</th>  
             <th>Lançamento</th>  
             <th>Desenvolvedor</th>  
+            <th>Ações</th>
           </tr>
         </thead>
         <tbody>
-
+          {data.map(gestor=>(
+            <tr key={gestor.Id}>
+              <td>{gestor.Id}</td>
+              <td>{gestor.Nome}</td>
+              <td>{gestor.Lancamento}</td>
+              <td>{gestor.Desenvolvedor}</td>
+              <td>
+                <button className="btn btn-success">Editar</button> {" "}
+                <button className="btn btn-danger">Excluir</button>
+              </td>
+            </tr>
+          ))}
         </tbody>
       </table>  
+      <Modal>
+        <ModalHeader>Inserir um Gestor na base de dados</ModalHeader>
+        <ModalBody>
+          <div className="form-group">
+            <label>Nome:</label>
+            <br/>
+            <input type="text" className="form-control"/>
+            <label>Lançamento:</label>
+            <br/>
+            <input type="text" className="form-control"/>
+            <label>Desenvolvedor:</label>
+            <br/>
+            <input type="text" className="form-control"/>
+          </div>
+        </ModalBody>
+        <ModalFooter>
+          <button className="btn btn-primary">Inserir</button>{"  "}
+          <button className="btn btn-danger">Cancelar</button> 
+        </ModalFooter>
+      </Modal>      
     </div>
   );
 }
