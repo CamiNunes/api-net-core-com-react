@@ -37,7 +37,7 @@ namespace APINetCoreReact
         {
             app.UseCors(options =>
             {
-                options.WithOrigins("http://localhost:3001");
+                options.WithOrigins("http://localhost:3000/");
                 options.AllowAnyMethod();
                 options.AllowAnyHeader();
             });

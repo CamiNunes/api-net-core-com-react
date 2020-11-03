@@ -6,7 +6,7 @@ import { Modal, ModalBody, ModalFooter, ModalHeader } from 'reactstrap';
 
 function App() {
   const baseUrl = "https://localhost:44351/api/gestores";
-  const [data, setData]=useState([])
+  const [data, setData]=useState([]);
 
   const gestoresGet=async()=>{
     await axios.get(baseUrl)
@@ -35,13 +35,13 @@ function App() {
         </thead>
         <tbody>
           {data.map(gestor=>(
-            <tr key={gestor.Id}>
-              <td>{gestor.Id}</td>
-              <td>{gestor.Nome}</td>
-              <td>{gestor.Lancamento}</td>
-              <td>{gestor.Desenvolvedor}</td>
+            <tr key={gestor.id}>
+              <td>{gestor.id}</td>
+              <td>{gestor.nome}</td>
+              <td>{gestor.lancamento}</td>
+              <td>{gestor.desenvolvedor}</td>
               <td>
-                <button className="btn btn-success">Editar</button> {" "}
+                <button className="btn btn-success">Editar</button>
                 <button className="btn btn-danger">Excluir</button>
               </td>
             </tr>
